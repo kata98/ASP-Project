@@ -1,0 +1,12 @@
+C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Domain\bin\Debug\net6.0\ASPBlog.Domain.deps.json
+C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Domain\bin\Debug\net6.0\ASPBlog.Domain.dll
+C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Domain\bin\Debug\net6.0\ASPBlog.Domain.pdb
+C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Domain\obj\Debug\net6.0\ASPBlog.Domain.csproj.AssemblyReference.cache
+C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Domain\obj\Debug\net6.0\ASPBlog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Domain\obj\Debug\net6.0\ASPBlog.Domain.AssemblyInfoInputs.cache
+C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Domain\obj\Debug\net6.0\ASPBlog.Domain.AssemblyInfo.cs
+C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Domain\obj\Debug\net6.0\ASPBlog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Domain\obj\Debug\net6.0\ASPBlog.Domain.dll
+C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Domain\obj\Debug\net6.0\refint\ASPBlog.Domain.dll
+C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Domain\obj\Debug\net6.0\ASPBlog.Domain.pdb
+C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Domain\obj\Debug\net6.0\ref\ASPBlog.Domain.dll
