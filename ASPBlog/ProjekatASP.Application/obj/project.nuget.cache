@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "HE7ImUY+fdFVA0km1l2Ip6S7lkgz6+JV/oJnrPZDynp7SrLGATrRX/PVmgZCXSWGlZfhZKz+wrpTlTXmYXh6vA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\E7470\\Downloads\\ProjekatASP-master\\ProjekatASP.Application\\ProjekatASP.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\E7470\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\E7470\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\E7470\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
