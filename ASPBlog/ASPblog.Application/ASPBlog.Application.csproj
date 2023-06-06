@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ASPBlog.DataAccess\ASPBlog.DataAccess.csproj" />
-    <ProjectReference Include="..\ProjekatASP.Domain\ProjekatASP.Domain.csproj" />
+    <ProjectReference Include="..\ASPBlog.Domain\ASPBlog.Domain.csproj" />
   </ItemGroup>
 
 </Project>
