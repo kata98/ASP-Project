@@ -7,5 +7,6 @@ namespace ASPBlog.Application.UseCases.Commands
 {
     public interface IAddCategoryCommand : ICommand<AddCategoryDto>
     {
+        void Execute(AddCategoryDto request);
     }
 }

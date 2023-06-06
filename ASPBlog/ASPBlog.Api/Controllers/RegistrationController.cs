@@ -6,7 +6,7 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Collections.Generic;
-using ProjekatASP.Api.DTO;
+using ASPBlog.Api.DTO;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
