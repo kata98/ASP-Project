@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.API\\ASPBlog.API.csproj": {}
+    "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPblog.Application\\ASPBlog.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.API\\ASPBlog.API.csproj": {
+    "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPblog.Application\\ASPBlog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.API\\ASPBlog.API.csproj",
-        "projectName": "ASPBlog.API",
-        "projectPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.API\\ASPBlog.API.csproj",
+        "projectUniqueName": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPblog.Application\\ASPBlog.Application.csproj",
+        "projectName": "ASPBlog.Application",
+        "projectPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPblog.Application\\ASPBlog.Application.csproj",
         "packagesPath": "C:\\Users\\E7470\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.API\\obj\\",
+        "outputPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPblog.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,19 +21,21 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.DataAccess\\ASPBlog.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.DataAccess\\ASPBlog.DataAccess.csproj"
+              },
+              "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj": {
+                "projectPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj"
               }
             }
           }
@@ -45,14 +47,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -64,10 +60,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
             },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

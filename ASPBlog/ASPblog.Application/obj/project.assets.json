@@ -2,28 +2,29 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "ProjekatASP.Domain/1.0.0": {
+      "ASPBlog.DataAccess/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": "Unsupported,Version=v0.0",
         "compile": {
-          "bin/placeholder/ProjekatASP.Domain.dll": {}
+          "bin/placeholder/ASPBlog.DataAccess.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProjekatASP.Domain.dll": {}
+          "bin/placeholder/ASPBlog.DataAccess.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "ProjekatASP.Domain/1.0.0": {
+    "ASPBlog.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../ProjekatASP.Domain/ProjekatASP.Domain.csproj",
-      "msbuildProject": "../ProjekatASP.Domain/ProjekatASP.Domain.csproj"
+      "path": "../ASPBlog.DataAccess/ASPBlog.DataAccess.csproj",
+      "msbuildProject": "../ASPBlog.DataAccess/ASPBlog.DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ProjekatASP.Domain >= 1.0.0"
+      "ASPBlog.DataAccess >= 1.0.0",
+      "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj"
     ]
   },
   "packageFolders": {
@@ -33,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\E7470\\Downloads\\ProjekatASP-master\\ProjekatASP.Application\\ProjekatASP.Application.csproj",
-      "projectName": "ProjekatASP.Application",
-      "projectPath": "C:\\Users\\E7470\\Downloads\\ProjekatASP-master\\ProjekatASP.Application\\ProjekatASP.Application.csproj",
+      "projectUniqueName": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPblog.Application\\ASPBlog.Application.csproj",
+      "projectName": "ASPBlog.Application",
+      "projectPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPblog.Application\\ASPBlog.Application.csproj",
       "packagesPath": "C:\\Users\\E7470\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\E7470\\Downloads\\ProjekatASP-master\\ProjekatASP.Application\\obj\\",
+      "outputPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPblog.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,8 +58,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\E7470\\Downloads\\ProjekatASP-master\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj": {
-              "projectPath": "C:\\Users\\E7470\\Downloads\\ProjekatASP-master\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj"
+            "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.DataAccess\\ASPBlog.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.DataAccess\\ASPBlog.DataAccess.csproj"
+            },
+            "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj": {
+              "projectPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj"
             }
           }
         }
@@ -105,5 +109,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

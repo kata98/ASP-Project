@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "Du7Xzz7n/h0o0fPN0PQWff80vxvks1ljUKParj1EmmejnVvOe0vChzKP3X1lQ5FotNN6VnLg2pgeBKCqEFO/rw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPblog.Application\\ASPBlog.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\E7470\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\E7470\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\E7470\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
