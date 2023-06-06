@@ -62,6 +62,7 @@ namespace ASPBlog.DataAccess
         public DbSet<Image> Images { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<PostTag> PostTags { get; set; }
+        public DbSet<PostImage> PostImages { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<User> Users { get; set; }
