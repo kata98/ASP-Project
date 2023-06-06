@@ -13,10 +13,10 @@ namespace ASPBlog.DataAccess
 
         public IApplicationUser User { get; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-8J573MD\SQLEXPRESS;Initial Catalog=ASPBlog;Integrated Security=True;Encrypt=False");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-8J573MD\SQLEXPRESS;Initial Catalog=ASPBlog;Integrated Security=True;Encrypt=False");
+        //}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
