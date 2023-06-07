@@ -3,3 +3,8 @@ C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Application\obj\D
 C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Application\obj\Debug\net6.0\ASPBlog.Application.AssemblyInfoInputs.cache
 C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Application\obj\Debug\net6.0\ASPBlog.Application.AssemblyInfo.cs
 C:\Users\E7470\Desktop\ASPProjekat\ASP-Project\ASPBlog\ASPBlog.Application\obj\Debug\net6.0\ASPBlog.Application.csproj.CoreCompileInputs.cache
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPblog.Application\obj\Debug\net6.0\ASPBlog.Application.csproj.AssemblyReference.cache
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPblog.Application\obj\Debug\net6.0\ASPBlog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPblog.Application\obj\Debug\net6.0\ASPBlog.Application.AssemblyInfoInputs.cache
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPblog.Application\obj\Debug\net6.0\ASPBlog.Application.AssemblyInfo.cs
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPblog.Application\obj\Debug\net6.0\ASPBlog.Application.csproj.CoreCompileInputs.cache

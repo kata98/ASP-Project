@@ -1,9 +1,10 @@
 ﻿using ASPBlog.Domain;
+using ASPBlog.Domain.Entities;
 using System.Collections.Generic;
 
 namespace ASPBlog.Api.Core
 {
-    public class JwtUser : IAppUser
+    public class JwtUser : IApplicationUser
     {
         public string Identity { get; set; }
         public int Id { get; set; }
@@ -12,7 +13,7 @@ namespace ASPBlog.Api.Core
         public int RoleId { get; set; }
     }
 
-    public class AnonimousUser : IAppUser
+    public class AnonimousUser : IApplicationUser
     {
         public string Identity => "Anonymous";
 

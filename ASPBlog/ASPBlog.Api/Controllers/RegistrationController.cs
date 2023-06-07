@@ -47,7 +47,7 @@ namespace ASPBlog.Api.Controllers
                     dto.ImagePath.CopyTo(fileStream);
                 }
 
-                dto.ImagePathName = newFileName;
+                dto.ImgPathName = newFileName;
             }
             _handler.HandleCommand(_command, dto);
             return StatusCode(201);

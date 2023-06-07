@@ -1,12 +1,10 @@
-﻿using FluentValidation;
-using ASPBlog.Application.Emails;
+﻿using ASPBlog.Application.Emails;
 using ASPBlog.Application.UseCases.Commands;
 using ASPBlog.Application.UseCases.DTO;
 using ASPBlog.DataAccess;
 using ASPBlog.Domain;
 using ASPBlog.Implementation.Validators;
 using System.Collections.Generic;
-using Org.BouncyCastle.Crypto.Generators;
 using ASPBlog.Domain.Entities;
 
 namespace ASPBlog.Implementation.UseCases.Commands

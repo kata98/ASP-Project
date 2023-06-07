@@ -3,6 +3,7 @@ using ASPBlog.Application.UseCases.DTO;
 using ASPBlog.Application.UseCases.Queries;
 using ASPBlog.DataAccess;
 using ASPBlog.Domain;
+using ASPBlog.Domain.Entities;
 using System.Linq;
 
 namespace ASPBlog.Implementation.UseCases.Queries
@@ -28,7 +29,7 @@ namespace ASPBlog.Implementation.UseCases.Queries
                 throw new EntityNotFoundException(nameof(Post), id);
             }
 
-            if (!query.Gradings.Select(r => r.RatingValue).Any())
+            if (!query.Gradings.Select(r => r.Grade).Any())
             {
                 return new FindPostDto
                 {

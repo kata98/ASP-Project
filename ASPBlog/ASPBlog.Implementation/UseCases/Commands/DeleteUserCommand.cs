@@ -1,4 +1,4 @@
-﻿using FluentValidation;
+﻿
 using Microsoft.EntityFrameworkCore;
 using ASPBlog.Application.Exceptions;
 using ASPBlog.Application.UseCases.Commands;

@@ -4,6 +4,7 @@ using ASPBlog.Application.Exceptions;
 using ASPBlog.Application.Logging;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web.Http.ExceptionHandling;
 
 namespace ProjekatASP.Api.Core
 {

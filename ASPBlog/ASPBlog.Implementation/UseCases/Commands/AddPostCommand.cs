@@ -1,5 +1,4 @@
-﻿using FluentValidation;
-using ASPBlog.Application.Exceptions;
+﻿using ASPBlog.Application.Exceptions;
 using ASPBlog.Application.UseCases.Commands;
 using ASPBlog.Application.UseCases.DTO;
 using ASPBlog.DataAccess;

@@ -1,13 +1,8 @@
-﻿using FluentValidation;
-using ASPBlog.Application.Exceptions;
+﻿using ASPBlog.Application.Exceptions;
 using ASPBlog.Application.UseCases.Commands;
 using ASPBlog.Application.UseCases.DTO;
 using ASPBlog.DataAccess;
-using ASPBlog.Domain;
 using ASPBlog.Implementation.Validators;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using ASPBlog.Domain.Entities;
 
 namespace ASPBlog.Implementation.UseCases.Commands

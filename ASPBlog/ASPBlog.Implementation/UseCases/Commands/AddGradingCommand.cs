@@ -1,5 +1,4 @@
-﻿using FluentValidation;
-using ASPBlog.Application.UseCases.Commands;
+﻿using ASPBlog.Application.UseCases.Commands;
 using ASPBlog.Application.UseCases.DTO;
 using ASPBlog.DataAccess;
 using ASPBlog.Domain;
@@ -11,9 +10,9 @@ namespace ASPBlog.Implementation.UseCases.Commands
 {
     public class AddGradingCommand : EfUseCase, IAddGradeCommand
     {
-        private readonly GradeValidator _validator;
+        private readonly GradingValidator _validator;
         private readonly IApplicationUser _user;
-        public AddGradingCommand(ASPBlogDbContext context, GradeValidator validator, IApplicationUser user) : base(context)
+        public AddGradingCommand(ASPBlogDbContext context, GradingValidator validator, IApplicationUser user) : base(context)
         {
             _validator = validator;
             _user = user;

@@ -81,6 +81,19 @@
           }
         }
       },
+      "BCrypt.Net-Core/1.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BCrypt.Net-Core.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/BCrypt.Net-Core.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Castle.Core/4.4.1": {
         "type": "package",
         "dependencies": {
@@ -160,7 +173,7 @@
           }
         }
       },
-      "FluentValidation/11.5.1": {
+      "FluentValidation/11.5.2": {
         "type": "package",
         "compile": {
           "lib/net6.0/FluentValidation.dll": {
@@ -222,6 +235,58 @@
             "related": ".deps.json;.xml"
           }
         }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.1",
+          "Newtonsoft.Json.Bson": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Net.Http.Formatting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Net.Http.Formatting.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.9"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
@@ -874,6 +939,23 @@
           }
         }
       },
+      "Newtonsoft.Json.Bson/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Nito.AsyncEx.Context/5.1.2": {
         "type": "package",
         "dependencies": {
@@ -948,19 +1030,6 @@
         },
         "runtime": {
           "lib/netstandard2.1/Nito.Disposables.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Portable.BouncyCastle/1.9.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
             "related": ".xml"
           }
         }
@@ -2895,6 +2964,22 @@
         "runtime": {
           "bin/placeholder/ASPBlog.Domain.dll": {}
         }
+      },
+      "ASPBlog.Implementation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ASPBlog.Application": "1.0.0",
+          "ASPBlog.DataAccess": "1.0.0",
+          "FluentValidation": "11.5.2",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/ASPBlog.Implementation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ASPBlog.Implementation.dll": {}
+        }
       }
     }
   },
@@ -2950,6 +3035,29 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "BCrypt.Net-Core/1.6.0": {
+      "sha512": "hsKiHGjrnlDW05MzuzzlD9gNP8YOW2KbZ+FbvISrilsKJJ76tXKhWey6psZX5sd7DczNpSU2U6ldjPoblk8BLw==",
+      "type": "package",
+      "path": "bcrypt.net-core/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-core.1.6.0.nupkg.sha512",
+        "bcrypt.net-core.nuspec",
+        "lib/net40/BCrypt.Net-Core.dll",
+        "lib/net40/BCrypt.Net-Core.pdb",
+        "lib/net45/BCrypt.Net-Core.dll",
+        "lib/net45/BCrypt.Net-Core.pdb",
+        "lib/net451/BCrypt.Net-Core.dll",
+        "lib/net451/BCrypt.Net-Core.pdb",
+        "lib/net452/BCrypt.Net-Core.dll",
+        "lib/net452/BCrypt.Net-Core.pdb",
+        "lib/netstandard1.3/BCrypt.Net-Core.dll",
+        "lib/netstandard1.3/BCrypt.Net-Core.pdb",
+        "lib/netstandard2.0/BCrypt.Net-Core.dll",
+        "lib/netstandard2.0/BCrypt.Net-Core.pdb"
       ]
     },
     "Castle.Core/4.4.1": {
@@ -3035,16 +3143,16 @@
         "windsor-logo.png"
       ]
     },
-    "FluentValidation/11.5.1": {
-      "sha512": "0h1Q5lNOLLyYTWMJmyNoMqhY4CBRvvUWvJP1R4F2CnmmzuWwvB0A8aVmw5+lOuwYnwUwCRrdeMLbc81F38ahNQ==",
+    "FluentValidation/11.5.2": {
+      "sha512": "kj/hW/iusp2zq1Vt1YPLgDj6UG0DhoJXGkLwjLwm3j7vUtRF8DVA5vHJfItG3BxDjLWJUR2pvw8fK7rnuysZNA==",
       "type": "package",
-      "path": "fluentvalidation/11.5.1",
+      "path": "fluentvalidation/11.5.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "fluent-validation-icon.png",
-        "fluentvalidation.11.5.1.nupkg.sha512",
+        "fluentvalidation.11.5.2.nupkg.sha512",
         "fluentvalidation.nuspec",
         "lib/net5.0/FluentValidation.dll",
         "lib/net5.0/FluentValidation.xml",
@@ -3114,6 +3222,56 @@
         "lib/netstandard2.0/JetBrains.Annotations.xml",
         "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
         "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.9": {
+      "sha512": "cuVhPjjNMSEFpKXweMNBbsG4RUFuuZpFBm8tSyw309U9JEjcnbB6n3EPb4xwgcy9bJ38ctIbv5G8zXUBhlrPWw==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.9": {
+      "sha512": "9C0/gBUeMBjorRFSmR5Z2j5wznf9BP5SddN+OZE7X0BpXgivBZTZ42d0h8tIjJzSLHYVCU4HZBf51+cidCY4fQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.9.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.0": {
+      "sha512": "eIhpX25uUn33Ornnh718V2G/nESvk3TNX2FjTarv634GLfE50Fhz2geJ/QYpSmFaUIQ1hkZPfd9i0LcpZ9bfLQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -4057,6 +4215,21 @@
         "packageIcon.png"
       ]
     },
+    "Newtonsoft.Json.Bson/1.0.1": {
+      "sha512": "W5Ke5xei9yS0ljQZuT75VgSp5M43eCPm5hHAelvKyGGU4dV7hYCmtwdsxoADb/exO6pYHeu/Iki43TdYPzfESQ==",
+      "type": "package",
+      "path": "newtonsoft.json.bson/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Newtonsoft.Json.Bson.dll",
+        "lib/net45/Newtonsoft.Json.Bson.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
+        "newtonsoft.json.bson.1.0.1.nupkg.sha512",
+        "newtonsoft.json.bson.nuspec"
+      ]
+    },
     "Nito.AsyncEx.Context/5.1.2": {
       "sha512": "rMwL7Nj3oNyvFu/jxUzQ/YBobEkM2RQHe+5mpCDRyq6mfD7vCj7Z3rjB6XgpM6Mqcx1CA2xGv0ascU/2Xk8IIg==",
       "type": "package",
@@ -4147,21 +4320,6 @@
         "lib/netstandard2.1/Nito.Disposables.xml",
         "nito.disposables.2.2.1.nupkg.sha512",
         "nito.disposables.nuspec"
-      ]
-    },
-    "Portable.BouncyCastle/1.9.0": {
-      "sha512": "eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
-      "type": "package",
-      "path": "portable.bouncycastle/1.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/BouncyCastle.Crypto.dll",
-        "lib/net40/BouncyCastle.Crypto.xml",
-        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
-        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
-        "portable.bouncycastle.1.9.0.nupkg.sha512",
-        "portable.bouncycastle.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -8943,6 +9101,11 @@
       "type": "project",
       "path": "../ASPBlog.Domain/ASPBlog.Domain.csproj",
       "msbuildProject": "../ASPBlog.Domain/ASPBlog.Domain.csproj"
+    },
+    "ASPBlog.Implementation/1.0.0": {
+      "type": "project",
+      "path": "../ASPBlog.Implementation/ASPBlog.Implementation.csproj",
+      "msbuildProject": "../ASPBlog.Implementation/ASPBlog.Implementation.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8950,9 +9113,12 @@
       "ASPBlog.Application >= 1.0.0",
       "ASPBlog.DataAccess >= 1.0.0",
       "ASPBlog.Domain >= 1.0.0",
+      "ASPBlog.Implementation >= 1.0.0",
       "Abp >= 8.2.0",
+      "BCrypt.Net-Core >= 1.6.0",
       "FluentValidation.AspNetCore >= 11.3.0",
-      "Portable.BouncyCastle >= 1.9.0"
+      "Microsoft.AspNet.WebApi.Core >= 5.2.9",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -8995,6 +9161,9 @@
             },
             "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj": {
               "projectPath": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj"
+            },
+            "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Implementation\\ASPBlog.Implementation.csproj": {
+              "projectPath": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Implementation\\ASPBlog.Implementation.csproj"
             }
           }
         }
@@ -9013,13 +9182,21 @@
             "target": "Package",
             "version": "[8.2.0, )"
           },
+          "BCrypt.Net-Core": {
+            "target": "Package",
+            "version": "[1.6.0, )"
+          },
           "FluentValidation.AspNetCore": {
             "target": "Package",
             "version": "[11.3.0, )"
           },
-          "Portable.BouncyCastle": {
+          "Microsoft.AspNet.WebApi.Core": {
             "target": "Package",
-            "version": "[1.9.0, )"
+            "version": "[5.2.9, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           }
         },
         "imports": [
@@ -9044,5 +9221,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

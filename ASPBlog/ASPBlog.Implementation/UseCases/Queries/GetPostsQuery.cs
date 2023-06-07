@@ -28,7 +28,7 @@ namespace ASPBlog.Implementation.UseCases.Queries
 
             if (!string.IsNullOrEmpty(search.Keyword))
             {
-                query = query.Where(x => x.Title.Contains(search.Keyword) || x.PostTags.Select(y => y.Tag.TagName).Contains(search.Keyword));
+                query = query.Where(x => x.Title.Contains(search.Keyword) || x.PostTags.Select(y => y.Tag.Name).Contains(search.Keyword));
             }
 
             if (search.PerPage == null || search.PerPage < 1)
@@ -51,7 +51,7 @@ namespace ASPBlog.Implementation.UseCases.Queries
             {
                 Id = x.Id,
                 Title = x.Title,
-                Content = x.Content,
+                Body = x.Body,
                 TagList = x.PostTags.Select(y => y.Tag.Name),
                 AvgGrade = x.Gradings.Select(r => r.Grade).Average(),
                 Images = x.PostImages.Select(z => z.Image.Path)

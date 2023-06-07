@@ -1,0 +1,5 @@
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Implementation\obj\Debug\net6.0\ASPBlog.Implementation.csproj.AssemblyReference.cache
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Implementation\obj\Debug\net6.0\ASPBlog.Implementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Implementation\obj\Debug\net6.0\ASPBlog.Implementation.AssemblyInfoInputs.cache
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Implementation\obj\Debug\net6.0\ASPBlog.Implementation.AssemblyInfo.cs
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Implementation\obj\Debug\net6.0\ASPBlog.Implementation.csproj.CoreCompileInputs.cache

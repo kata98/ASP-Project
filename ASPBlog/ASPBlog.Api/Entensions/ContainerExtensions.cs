@@ -16,6 +16,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using ASPBlog.Domain.Entities;
+using ProjeASPBlogkatASP.Implementation.UseCases.Commands;
 
 namespace ASPBlog.Api.Extensions
 {
@@ -68,7 +69,7 @@ namespace ASPBlog.Api.Extensions
             services.AddTransient<IAddCategoryCommand, AddCategoryCommand>();
             services.AddTransient<IFindCategoryQuery, FindCategoryQuery>();
             services.AddTransient<IDeleteCategoryCommand, DeleteCategoryCommand>();
-            services.AddTransient<IAddGradeCommand, AddGradeCommand>();
+            services.AddTransient<IAddGradeCommand, AddGradingCommand>();
             services.AddTransient<IDeleteGradingCommand, DeleteGradingCommand>();
             services.AddTransient<IFindUserQuery, FindUserQuery>();
             services.AddTransient<IUpdateUserRole, UpdateUserRole>();

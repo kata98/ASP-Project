@@ -41,7 +41,7 @@ namespace ASPBlog.Implementation.UseCases.Queries
                 Posts = query.Posts.Select(x => new FindCategoryUserPostDto
                 {
                     Title = x.Title,
-                    ContentExcerpt = x.Content.Remove(15),
+                    ContentExcerpt = x.Body.Remove(15),
                     TagList = x.PostTags.Select(y => y.Tag.Name),
                     AvgGrade = x.Gradings.Select(z => z.Grade).DefaultIfEmpty(0).Average()
                 })
