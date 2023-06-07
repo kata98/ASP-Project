@@ -4,6 +4,7 @@ using ASPBlog.Application.UseCases.DTO;
 using ASPBlog.DataAccess;
 using ASPBlog.Implementation.Validators;
 using ASPBlog.Domain.Entities;
+using FluentValidation;
 
 namespace ASPBlog.Implementation.UseCases.Commands
 {

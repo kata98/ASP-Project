@@ -3063,7 +3063,6 @@
           "ASPBlog.Application": "1.0.0",
           "ASPBlog.DataAccess": "1.0.0",
           "FluentValidation": "11.5.2",
-          "Microsoft.AspNet.WebApi.Core": "5.2.9",
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {

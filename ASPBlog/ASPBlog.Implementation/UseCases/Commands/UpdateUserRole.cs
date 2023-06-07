@@ -3,6 +3,7 @@ using ASPBlog.Application.UseCases.DTO;
 using ASPBlog.DataAccess;
 using ASPBlog.Domain.Entities;
 using ASPBlog.Implementation.Validators;
+using FluentValidation;
 
 namespace ASPBlog.Implementation.UseCases.Commands
 {

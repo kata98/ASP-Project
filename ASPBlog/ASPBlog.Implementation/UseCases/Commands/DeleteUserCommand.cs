@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using ASPBlog.Domain.Entities;
+using FluentValidation;
 
 namespace ASPBlog.Implementation.UseCases.Commands
 {

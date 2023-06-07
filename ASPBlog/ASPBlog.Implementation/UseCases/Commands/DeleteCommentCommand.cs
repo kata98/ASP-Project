@@ -5,7 +5,7 @@ using ASPBlog.Domain;
 using ASPBlog.Domain.Entities;
 using ASPBlog.Implementation.UseCases;
 
-namespace ProjeASPBlogkatASP.Implementation.UseCases.Commands
+namespace ASPBlog.Implementation.UseCases.Commands
 {
     public class DeleteCommentCommand : EfUseCase, IDeleteCommentCommand
     {

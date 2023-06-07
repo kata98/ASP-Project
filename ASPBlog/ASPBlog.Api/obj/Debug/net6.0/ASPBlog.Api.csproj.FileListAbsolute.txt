@@ -1,6 +1,0 @@
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.csproj.AssemblyReference.cache
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.AssemblyInfoInputs.cache
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.AssemblyInfo.cs
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.csproj.CoreCompileInputs.cache
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.MvcApplicationPartsAssemblyInfo.cache

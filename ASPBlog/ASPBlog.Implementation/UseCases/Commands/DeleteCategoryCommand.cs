@@ -5,6 +5,7 @@ using ASPBlog.DataAccess;
 using ASPBlog.Domain;
 using System.Linq;
 using ASPBlog.Domain.Entities;
+using FluentValidation;
 
 namespace ASPBlog.Implementation.UseCases.Commands
 {
