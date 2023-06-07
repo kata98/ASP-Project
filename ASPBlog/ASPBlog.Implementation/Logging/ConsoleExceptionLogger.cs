@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Web.Http.ExceptionHandling;
 
 namespace ProjekatASP.Implementation.Logging
 {

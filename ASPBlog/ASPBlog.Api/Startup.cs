@@ -16,6 +16,10 @@ using System.IO;
 using System.Reflection;
 using Abp.Net.Mail.Smtp;
 using ProjekatASP.Api.Core;
+using ProjekatASP.Implementation.Logging;
+using System.Web.Http.ExceptionHandling;
+using ProjekatASP.Implementation.UseCaseLogger;
+using Microsoft.OpenApi.Models;
 
 namespace ASPBlog.Api
 {
@@ -43,7 +47,7 @@ namespace ASPBlog.Api
             services.AddTransient<IUseCaseLogger, ConsoleUseCaseLogger>();
             services.AddTransient<UseCaseHandler>();
             services.AddTransient<IEmailSender>(x =>
-            new SmtpEmailSender(settings.EmailOptions.FromEmail,
+            new Implementation.Emails.SmtpEmailSender(settings.EmailOptions.FromEmail,
                                 settings.EmailOptions.Password,
                                 settings.EmailOptions.Port,
                                 settings.EmailOptions.Host));

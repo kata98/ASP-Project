@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ASPBlog.Domain/1.0.0": {
+      "ASPBlog.Application/1.0.0": {
         "dependencies": {
-          "Swashbuckle.AspNetCore": "5.3.3"
+          "ASPBlog.Domain": "1.0.0"
         },
         "runtime": {
-          "ASPBlog.Domain.dll": {}
+          "ASPBlog.Application.dll": {}
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -60,11 +60,19 @@
             "fileVersion": "5.3.3.0"
           }
         }
+      },
+      "ASPBlog.Domain/1.0.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "5.3.3"
+        },
+        "runtime": {
+          "ASPBlog.Domain.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "ASPBlog.Domain/1.0.0": {
+    "ASPBlog.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -110,6 +118,11 @@
       "sha512": "sha512-eWzYYfp1Y2Qzf7UtzfA863NBdIAFjNXl7tLGejTJ+KU+omWzRf5SLc7HLQk61MGMhs2N2fwNPGK7THx/KzhqvQ==",
       "path": "swashbuckle.aspnetcore.swaggerui/5.3.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.3.3.nupkg.sha512"
+    },
+    "ASPBlog.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "O6WbNN6MNgTKURqfnLxo/4mQMiVkjruGQLZUUJ/wkAjPXHrfVY3t0ldffbd0ObKW3bCZJYJ9EPDIo7Jr5dK7mw==",
+  "dgSpecHash": "n7ihNrLBOUWvqKtrcKiZ17FwcqhhmjqJ3QdElMlka4R2Zcas/Y+2JrtBWLLRFb5RUkRHRpR1Wz3lfWtiFwxBlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\E7470\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\E7470\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\E7470\\.nuget\\packages\\swashbuckle.aspnetcore\\5.3.3\\swashbuckle.aspnetcore.5.3.3.nupkg.sha512",
+    "C:\\Users\\E7470\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.3.3\\swashbuckle.aspnetcore.swagger.5.3.3.nupkg.sha512",
+    "C:\\Users\\E7470\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.3.3\\swashbuckle.aspnetcore.swaggergen.5.3.3.nupkg.sha512",
+    "C:\\Users\\E7470\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.3.3\\swashbuckle.aspnetcore.swaggerui.5.3.3.nupkg.sha512"
+  ],
   "logs": []
 }
