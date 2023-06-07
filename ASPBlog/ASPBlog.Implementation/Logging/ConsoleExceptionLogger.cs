@@ -2,11 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Web.Http.ExceptionHandling;
+
 
 namespace ProjekatASP.Implementation.Logging
 {
-    public class ConsoleExceptionLogger : IExceptionLogger
+    public class ConsoleExceptionLogger : IExceptionLoggers
     {
         public void Log(Exception ex)
         {

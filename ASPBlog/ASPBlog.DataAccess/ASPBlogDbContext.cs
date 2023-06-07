@@ -6,9 +6,9 @@ namespace ASPBlog.DataAccess
 {
     public class ASPBlogDbContext : DbContext
     {
-        public ASPBlogDbContext(IApplicationUser user = null)
+        public ASPBlogDbContext(DbContextOptions options = null) : base(options)
         {
-            User = user;
+
         }
 
         public IApplicationUser User { get; }

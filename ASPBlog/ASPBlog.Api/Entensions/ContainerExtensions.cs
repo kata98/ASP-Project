@@ -1,22 +1,16 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.IdentityModel.Tokens;
-using Newtonsoft.Json;
-using ASPBlog.Api.Core;
+﻿using ASPBlog.Api.Core;
 using ASPBlog.Application.UseCases.Commands;
 using ASPBlog.Application.UseCases.Queries;
 using ASPBlog.DataAccess;
-using ASPBlog.Domain;
+using ASPBlog.Domain.Entities;
 using ASPBlog.Implementation.UseCases.Commands;
 using ASPBlog.Implementation.UseCases.Queries;
 using ASPBlog.Implementation.Validators;
-using System;
-using System.Collections.Generic;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Newtonsoft.Json;
 using System.Text;
-using ASPBlog.Domain.Entities;
-using ProjeASPBlogkatASP.Implementation.UseCases.Commands;
 
 namespace ASPBlog.Api.Extensions
 {
@@ -80,7 +74,7 @@ namespace ASPBlog.Api.Extensions
             services.AddTransient<CommentsValidator>();
             services.AddTransient<TagValidator>();
             services.AddTransient<CategoryValidator>();
-            services.AddTransient<RatingValidator>();
+            services.AddTransient<GradingValidator>();
             services.AddTransient<UpdateUserRoleValidator>();
             #endregion
         }

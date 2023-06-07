@@ -9,19 +9,18 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using ASPBlog.Domain.Entities;
-using System.Web.Http.ExceptionHandling;
 
 namespace ASPBlog.Implementation
 {
     public class UseCaseHandler
     {
         
-        private IExceptionLogger _logger;
+        private IExceptionLoggers _logger;
         private IApplicationUser _user;
         private IUseCaseLogger _useCaseLogger;
 
         public UseCaseHandler(
-            IExceptionLogger logger,
+            IExceptionLoggers logger,
             IApplicationUser user,
             IUseCaseLogger useCaseLogger)
         {
