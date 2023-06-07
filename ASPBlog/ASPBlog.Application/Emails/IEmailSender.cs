@@ -9,6 +9,5 @@ namespace ASPBlog.Application.Emails
     public interface IEmailSender
     {
         void Send(MessageDto message);
-        void Send(MessageDto dto);
     }
 }
