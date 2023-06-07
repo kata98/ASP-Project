@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjekatASP.Implementation.UseCaseLogger
+namespace ASPBlog.Implementation.UseCaseLogger
 {
     public class ConsoleUseCaseLogger : IUseCaseLogger
     {

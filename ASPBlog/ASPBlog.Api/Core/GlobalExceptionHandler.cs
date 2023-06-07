@@ -4,16 +4,15 @@ using ASPBlog.Application.Exceptions;
 using ASPBlog.Application.Logging;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Web.Http.ExceptionHandling;
 
-namespace ProjekatASP.Api.Core
+namespace ASPBlog.Api.Core
 {
     public class GlobalExceptionHandler
     {
         private readonly RequestDelegate _next;
-        private readonly IExceptionLogger _logger;
+        private readonly IExceptionLoggers _logger;
 
-        public GlobalExceptionHandler(RequestDelegate next, IExceptionLogger logger)
+        public GlobalExceptionHandler(RequestDelegate next, IExceptionLoggers logger)
         {
             _next = next;
             _logger = logger;

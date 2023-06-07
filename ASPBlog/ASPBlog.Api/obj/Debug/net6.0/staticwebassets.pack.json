@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\images\\44b91134-10bf-497b-ac44-5b57ca89714c.jpg",
+      "PackagePath": "staticwebassets\\images\\44b91134-10bf-497b-ac44-5b57ca89714c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\images\\57ab6b02-c192-42f7-b1b3-31e0d0c7d106.jpg",
+      "PackagePath": "staticwebassets\\images\\57ab6b02-c192-42f7-b1b3-31e0d0c7d106.jpg"
+    },
+    {
+      "Id": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\images\\57f8eef3-40ea-4735-a2ed-acce2d8f4b3a.jpg",
+      "PackagePath": "staticwebassets\\images\\57f8eef3-40ea-4735-a2ed-acce2d8f4b3a.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ASPBlog.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ASPBlog.Api.props",
+      "PackagePath": "build\\ASPBlog.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ASPBlog.Api.props",
+      "PackagePath": "buildMultiTargeting\\ASPBlog.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ASPBlog.Api.props",
+      "PackagePath": "buildTransitive\\ASPBlog.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,25 +1,15 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using ASPBlog.Api.Core;
-using ASPBlog.Api.Emails;
+﻿using ASPBlog.Api.Core;
 using ASPBlog.Api.Extensions;
 using ASPBlog.Application.Emails;
 using ASPBlog.Application.Logging;
 using ASPBlog.Application.UseCases;
 using ASPBlog.Implementation;
-using ASPBlog.Implementation.Emails;
-using System;
-using System.IO;
-using System.Reflection;
-using Abp.Net.Mail.Smtp;
-using ProjekatASP.Api.Core;
-using ProjekatASP.Implementation.Logging;
-using System.Web.Http.ExceptionHandling;
-using ProjekatASP.Implementation.UseCaseLogger;
+using ASPBlog.Implementation.Logging;
+using ASPBlog.Implementation.UseCaseLogger;
 using Microsoft.OpenApi.Models;
+using ASPBlog.Api.Core;
+using System.Reflection;
+using ASPBlog.Api.Core;
 
 namespace ASPBlog.Api
 {
@@ -43,7 +33,7 @@ namespace ASPBlog.Api
             services.AddJwt(settings);
             services.AddASPBlogDbContext();
             services.AddUseCases();
-            services.AddTransient<IExceptionLogger, ConsoleExceptionLogger>();
+            services.AddTransient<IExceptionLoggers, ConsoleExceptionLogger>();
             services.AddTransient<IUseCaseLogger, ConsoleUseCaseLogger>();
             services.AddTransient<UseCaseHandler>();
             services.AddTransient<IEmailSender>(x =>
@@ -69,7 +59,7 @@ namespace ASPBlog.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ProjekatASP v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ASPBlog v1"));
             }
 
             app.UseRouting();

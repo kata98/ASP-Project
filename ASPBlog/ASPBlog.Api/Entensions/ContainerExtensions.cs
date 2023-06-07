@@ -86,7 +86,7 @@ namespace ASPBlog.Api.Extensions
                 var accessor = x.GetService<IHttpContextAccessor>();
                 var header = accessor.HttpContext.Request.Headers["Authorization"];
 
-                //Pristup payload-u
+              
                 var claims = accessor.HttpContext.User;
 
                 if (claims == null || claims.FindFirst("UserId") == null)

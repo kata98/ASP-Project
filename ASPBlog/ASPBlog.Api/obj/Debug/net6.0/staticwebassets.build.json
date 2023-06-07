@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "QC+QCa7qe+gPDOdBxULoOfujBMzDQ6W/0u9HZmsNcmI=",
+  "Source": "ASPBlog.Api",
+  "BasePath": "_content/ASPBlog.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPBlog.Api\\wwwroot",
+      "Source": "ASPBlog.Api",
+      "ContentRoot": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\",
+      "BasePath": "_content/ASPBlog.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\images\\44b91134-10bf-497b-ac44-5b57ca89714c.jpg",
+      "SourceId": "ASPBlog.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\",
+      "BasePath": "_content/ASPBlog.Api",
+      "RelativePath": "images/44b91134-10bf-497b-ac44-5b57ca89714c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\44b91134-10bf-497b-ac44-5b57ca89714c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\images\\57ab6b02-c192-42f7-b1b3-31e0d0c7d106.jpg",
+      "SourceId": "ASPBlog.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\",
+      "BasePath": "_content/ASPBlog.Api",
+      "RelativePath": "images/57ab6b02-c192-42f7-b1b3-31e0d0c7d106.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\57ab6b02-c192-42f7-b1b3-31e0d0c7d106.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\images\\57f8eef3-40ea-4735-a2ed-acce2d8f4b3a.jpg",
+      "SourceId": "ASPBlog.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\",
+      "BasePath": "_content/ASPBlog.Api",
+      "RelativePath": "images/57f8eef3-40ea-4735-a2ed-acce2d8f4b3a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\57f8eef3-40ea-4735-a2ed-acce2d8f4b3a.jpg"
+    }
+  ]
+}

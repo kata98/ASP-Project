@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-namespace ProjekatASP.Implementation.Logging
+namespace ASPBlog.Implementation.Logging
 {
     public class ConsoleExceptionLogger : IExceptionLoggers
     {
