@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj": {}
+    "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj": {
+    "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj",
         "projectName": "ASPBlog.Domain",
-        "projectPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj",
+        "projectPath": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj",
         "packagesPath": "C:\\Users\\E7470\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\obj\\",
+        "outputPath": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -2860,9 +2860,8 @@
       },
       "ASPBlog.Application/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "ASPBlog.DataAccess": "1.0.0",
           "ASPBlog.Domain": "1.0.0"
         },
         "compile": {
@@ -8963,11 +8962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.Api\\ASPBlog.Api.csproj",
+      "projectUniqueName": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\ASPBlog.Api.csproj",
       "projectName": "ASPBlog.Api",
-      "projectPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.Api\\ASPBlog.Api.csproj",
+      "projectPath": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\ASPBlog.Api.csproj",
       "packagesPath": "C:\\Users\\E7470\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.Api\\obj\\",
+      "outputPath": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8988,14 +8987,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPblog.Application\\ASPBlog.Application.csproj": {
-              "projectPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPblog.Application\\ASPBlog.Application.csproj"
+            "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPblog.Application\\ASPBlog.Application.csproj": {
+              "projectPath": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPblog.Application\\ASPBlog.Application.csproj"
             },
-            "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.DataAccess\\ASPBlog.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.DataAccess\\ASPBlog.DataAccess.csproj"
+            "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.DataAccess\\ASPBlog.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.DataAccess\\ASPBlog.DataAccess.csproj"
             },
-            "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj": {
-              "projectPath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj"
+            "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj": {
+              "projectPath": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Domain\\ASPBlog.Domain.csproj"
             }
           }
         }

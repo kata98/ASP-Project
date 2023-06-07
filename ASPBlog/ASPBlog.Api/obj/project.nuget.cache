@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F7fl2McMa4m21Mbo+HHaB3/uitZgUKSKBnsnNPAge1MaEilHM5434La1YeaqnLl9tambKoqKV2itSeG+6y8HUg==",
+  "dgSpecHash": "NMj0Y82LGsj3khQYQov706bi/zweECN6ra96eTjzIIrZ+OehmhdGvjJsCB7o/fAn0xBmBhDxuadNBJ4MhABxOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\E7470\\Desktop\\ASPProjekat\\ASP-Project\\ASPBlog\\ASPBlog.Api\\ASPBlog.Api.csproj",
+  "projectFilePath": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\ASPBlog.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\E7470\\.nuget\\packages\\abp\\8.2.0\\abp.8.2.0.nupkg.sha512",
     "C:\\Users\\E7470\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
