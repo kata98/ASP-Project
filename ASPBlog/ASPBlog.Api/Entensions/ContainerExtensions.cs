@@ -11,6 +11,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using System.Text;
+using Microsoft.Extensions.DependencyInjection;
+
 
 namespace ASPBlog.Api.Extensions
 {
@@ -109,18 +111,15 @@ namespace ASPBlog.Api.Extensions
 
         public static void AddASPBlogDbContext(this IServiceCollection services)
         {
-            services.AddTransient(x =>
+            services.AddDbContext<ASPBlogDbContext>(options =>
             {
-                var optionsBuilder = new DbContextOptionsBuilder();
-
-                var conString = x.GetService<AppSettings>().ConnString;
-
-                optionsBuilder.UseSqlServer(conString).UseLazyLoadingProxies();
-
-                var options = optionsBuilder.Options;
-
-                return new ASPBlogDbContext(options);
+                var serviceProvider = services.BuildServiceProvider();
+                var appSettings = serviceProvider.GetRequiredService<AppSettings>();
+                var conString = appSettings.ConnString;
+                options.UseSqlServer(conString).UseLazyLoadingProxies();
             });
         }
+
+
     }
 }

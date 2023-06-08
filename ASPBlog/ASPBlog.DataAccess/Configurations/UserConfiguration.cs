@@ -18,11 +18,11 @@ namespace ASPBlog.DataAccess.Configurations
             builder.HasIndex(x => x.LastName);
             builder.HasIndex(x => x.Email).IsUnique();
 
-            builder.Property(x => x.Username).HasMaxLength(20).IsRequired();
+            builder.Property(x => x.Username).HasMaxLength(30).IsRequired();
             builder.Property(x => x.FirstName).HasMaxLength(30).IsRequired();
             builder.Property(x => x.LastName).HasMaxLength(30).IsRequired();
-            builder.Property(x => x.Email).HasMaxLength(50).IsRequired();
-            builder.Property(x => x.Password).HasMaxLength(30).IsRequired();
+            builder.Property(x => x.Email).HasMaxLength(60).IsRequired();
+            builder.Property(x => x.Password).HasMaxLength(60).IsRequired();
 
             builder.HasMany(x => x.Gradings)
                    .WithOne(x => x.User)

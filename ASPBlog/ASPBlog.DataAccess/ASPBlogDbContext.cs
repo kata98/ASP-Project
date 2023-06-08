@@ -1,14 +1,17 @@
 ﻿using ASPBlog.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace ASPBlog.DataAccess
 {
     public class ASPBlogDbContext : DbContext
     {
-        public ASPBlogDbContext(DbContextOptions options = null) : base (options)
+        public ASPBlogDbContext(DbContextOptions<ASPBlogDbContext> options) : base(options)
         {
+        }
 
+        public ASPBlogDbContext()
+        {
         }
 
         public IApplicationUser User { get; }
@@ -17,6 +20,15 @@ namespace ASPBlog.DataAccess
         //{
         //    optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-8J573MD\SQLEXPRESS;Initial Catalog=ASPBlog;Integrated Security=True;Encrypt=False");
         //}
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-8J573MD\SQLEXPRESS;Initial Catalog=ASPBlog;Integrated Security=True;Encrypt=False");
+            }
+        }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

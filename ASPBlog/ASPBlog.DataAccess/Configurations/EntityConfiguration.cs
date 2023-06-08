@@ -14,8 +14,8 @@ namespace ASPBlog.DataAccess.Configurations
     {
         public void Configure(EntityTypeBuilder<T> builder)
         {
-            builder.Property(x => x.UpdatedBy).HasMaxLength(50);
-            builder.Property(x => x.DeletedBy).HasMaxLength(50);
+            builder.Property(x => x.UpdatedBy).HasMaxLength(60);
+            builder.Property(x => x.DeletedBy).HasMaxLength(60);
             builder.Property(x => x.IsActive).HasDefaultValue(true);
 
             ConfigureRules(builder);

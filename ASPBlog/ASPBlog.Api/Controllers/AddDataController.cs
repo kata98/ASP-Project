@@ -1,11 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using ASPBlog.DataAccess;
-using ASPBlog.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ASPBlog.DataAccess;
 using ASPBlog.Domain.Entities;
+using Microsoft.AspNetCore.Mvc;
+
+
+
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -16,7 +14,7 @@ namespace ASPBlog.Api.Controllers
     [ApiController]
     public class AddDataController : ControllerBase
     {
-        
+
         // POST api/<AddDataController>
         [HttpPost]
         public void Post()
@@ -161,7 +159,7 @@ namespace ASPBlog.Api.Controllers
             context.Comments.AddRange(comments);
 
             context.SaveChanges();
-            
+
         }
 
     }

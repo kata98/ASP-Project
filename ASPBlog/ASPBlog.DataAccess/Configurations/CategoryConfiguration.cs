@@ -14,7 +14,7 @@ namespace ASPBlog.DataAccess.Configurations
         protected override void ConfigureRules(EntityTypeBuilder<Category> builder)
         {
             builder.HasIndex(x => x.Name).IsUnique();
-            builder.Property(x => x.Name).HasMaxLength(30).IsRequired();
+            builder.Property(x => x.Name).HasMaxLength(60).IsRequired();
 
             builder.HasMany(x => x.Posts)
                    .WithOne(x => x.Category)

@@ -13,7 +13,7 @@ namespace ASPBlog.DataAccess.Configurations
     {
         protected override void ConfigureRules(EntityTypeBuilder<Image> builder)
         {
-            builder.Property(x => x.Path).IsRequired().HasMaxLength(200);
+            builder.Property(x => x.Path).IsRequired().HasMaxLength(300);
 
             builder.HasMany(x => x.PostImages)
                    .WithOne(x => x.Image)

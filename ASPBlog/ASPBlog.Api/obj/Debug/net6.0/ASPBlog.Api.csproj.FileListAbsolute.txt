@@ -1,3 +1,10 @@
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.csproj.AssemblyReference.cache
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.AssemblyInfoInputs.cache
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.AssemblyInfo.cs
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.csproj.CoreCompileInputs.cache
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\appsettings.json
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\ASPBlog.Api.staticwebassets.runtime.json
@@ -14,6 +21,7 @@ C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Humanizer.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.Net.Http.Formatting.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.Web.Http.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -21,6 +29,7 @@ C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -29,6 +38,7 @@ C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
@@ -44,11 +54,13 @@ C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
@@ -56,6 +68,8 @@ C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.Runtime.Caching.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.Windows.Extensions.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -68,6 +82,7 @@ C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\ASPBlog.Application.dll
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\ASPBlog.DataAccess.dll
@@ -77,13 +92,6 @@ C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\ASPBlog.DataAccess.pdb
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\ASPBlog.Domain.pdb
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\ASPBlog.Implementation.pdb
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.csproj.AssemblyReference.cache
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.AssemblyInfoInputs.cache
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.AssemblyInfo.cs
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.csproj.CoreCompileInputs.cache
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\staticwebassets\msbuild.ASPBlog.Api.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\staticwebassets\msbuild.build.ASPBlog.Api.props
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ASPBlog.Api.props
@@ -99,11 +107,3 @@ C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.pdb
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.genruntimeconfig.cache
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ref\ASPBlog.Api.dll
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Humanizer.dll
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\Mono.TextTemplating.dll
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.CodeDom.dll
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.Text.Encodings.Web.dll
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\System.Text.Json.dll
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
