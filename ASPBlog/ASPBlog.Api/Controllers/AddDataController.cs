@@ -135,16 +135,16 @@ namespace ASPBlog.Api.Controllers
 
             var comments = new List<Comment>
             {
-                new Comment { User = users.ElementAt(1), Post = posts.ElementAt(0), Text = "Awesome!"},
-                new Comment { User = users.ElementAt(2), Post = posts.ElementAt(1), Text = "Good!"},
-                new Comment { User = users.ElementAt(3), Post = posts.ElementAt(3), Text = "Useful!"},
-                new Comment { User = users.ElementAt(4), Post = posts.ElementAt(3), Text = "Did not like it."},
+                new Comment { User = users.ElementAt(1), Post = posts.ElementAt(0), Text = "Awesome"},
+                new Comment { User = users.ElementAt(2), Post = posts.ElementAt(1), Text = "Good"},
+                new Comment { User = users.ElementAt(3), Post = posts.ElementAt(2), Text = "Useful"},
+                new Comment { User = users.ElementAt(4), Post = posts.ElementAt(3), Text = "Did not like it"},
                 new Comment { User = users.ElementAt(5), Post = posts.ElementAt(4), Text = "Do you agree?"},
-                new Comment { User = users.ElementAt(3), Post = posts.ElementAt(5), Text = "More about this topic!"},
-                new Comment { User = users.ElementAt(4), Post = posts.ElementAt(5), Text = "Not talked about enough."},
-                new Comment { User = users.ElementAt(5), Post = posts.ElementAt(6), Text = "I agree."},
-                new Comment { User = users.ElementAt(3), Post = posts.ElementAt(6), Text = "Tank you for this!"},
-                new Comment { User = users.ElementAt(4), Post = posts.ElementAt(7), Text = "Did not agree!"},
+                new Comment { User = users.ElementAt(3), Post = posts.ElementAt(5), Text = "More about this topic"},
+                new Comment { User = users.ElementAt(4), Post = posts.ElementAt(5), Text = "Not talked about enough"},
+                new Comment { User = users.ElementAt(5), Post = posts.ElementAt(6), Text = "I agree"},
+                new Comment { User = users.ElementAt(3), Post = posts.ElementAt(6), Text = "Tank you for this"},
+                new Comment { User = users.ElementAt(4), Post = posts.ElementAt(7), Text = "Did not agree"},
             };
 
             context.Roles.AddRange(roles);

@@ -1,10 +1,3 @@
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.csproj.AssemblyReference.cache
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.AssemblyInfoInputs.cache
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.AssemblyInfo.cs
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.csproj.CoreCompileInputs.cache
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\appsettings.json
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\ASPBlog.Api.staticwebassets.runtime.json
@@ -92,6 +85,13 @@ C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\ASPBlog.DataAccess.pdb
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\ASPBlog.Domain.pdb
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\bin\Debug\net6.0\ASPBlog.Implementation.pdb
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.csproj.AssemblyReference.cache
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.AssemblyInfoInputs.cache
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.AssemblyInfo.cs
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.csproj.CoreCompileInputs.cache
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\ASPBlog.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\staticwebassets\msbuild.ASPBlog.Api.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\staticwebassets\msbuild.build.ASPBlog.Api.props
 C:\Users\E7470\Desktop\ASPBlog\ASP-Project\ASPBlog\ASPBlog.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ASPBlog.Api.props
