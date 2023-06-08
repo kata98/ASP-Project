@@ -1,12 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using ASPBlog.Api.DTO;
 using ASPBlog.Application.UseCases.Commands;
 using ASPBlog.Implementation;
-using System;
-using System.IO;
-using System.Linq;
-using System.Collections.Generic;
-using ASPBlog.Api.DTO;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -19,12 +14,12 @@ namespace ASPBlog.Api.Controllers
         private readonly UseCaseHandler _handler;
         private readonly IRegistrationCommand _command;
 
-        public RegistrationController(UseCaseHandler handler,IRegistrationCommand command)
+        public RegistrationController(UseCaseHandler handler, IRegistrationCommand command)
         {
             _handler = handler;
             _command = command;
         }
-        
+
         [HttpPost]
         public IActionResult Post([FromForm] RegisterApiDto dto)
         {

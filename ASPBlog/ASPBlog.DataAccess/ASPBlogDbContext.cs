@@ -16,11 +16,6 @@ namespace ASPBlog.DataAccess
 
         public IApplicationUser User { get; }
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-8J573MD\SQLEXPRESS;Initial Catalog=ASPBlog;Integrated Security=True;Encrypt=False");
-        //}
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -42,6 +37,7 @@ namespace ASPBlog.DataAccess
 
         public override int SaveChanges()
         {
+            
             foreach (var entry in this.ChangeTracker.Entries())
             {
                 if (entry.Entity is Entity e)
@@ -54,11 +50,11 @@ namespace ASPBlog.DataAccess
                             break;
                         case EntityState.Modified:
                             e.UpdatedAt = DateTime.UtcNow;
-                            e.UpdatedBy = User.Identity;
+                            e.UpdatedBy = User?.Identity;
                             break;
                         case EntityState.Deleted:
                             e.DeletedAt = DateTime.UtcNow;
-                            e.DeletedBy = User.Identity;
+                            e.DeletedBy = User?.Identity;
                             break;
                     }
                 }

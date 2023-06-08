@@ -16,7 +16,7 @@ namespace ASPBlog.DataAccess.Configurations
 
             builder.HasIndex(x => x.Title).IsUnique();
 
-            builder.Property(x => x.Title).HasMaxLength(70).IsRequired();
+            builder.Property(x => x.Title).HasMaxLength(80).IsRequired();
             builder.Property(x => x.Body).IsRequired();
 
             builder.HasMany(x => x.Gradings)

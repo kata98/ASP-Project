@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RwjGQPE7DhfeNsFPsQkWgShEV5ugCVYIK1+7lSFCq7s=",
+  "Hash": "fv4SKnRO32qVhEnH3kYs7OgBlCiNc/77hewptype8Dk=",
   "Source": "ASPBlog.Api",
   "BasePath": "_content/ASPBlog.Api",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\276162cb-7627-47f9-865c-e28891e2be80.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\images\\328ea877-b174-4dc1-a208-a4c732c23fd5.jpg",
+      "SourceId": "ASPBlog.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\",
+      "BasePath": "_content/ASPBlog.Api",
+      "RelativePath": "images/328ea877-b174-4dc1-a208-a4c732c23fd5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\328ea877-b174-4dc1-a208-a4c732c23fd5.jpg"
     },
     {
       "Identity": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\images\\352790a8-5cdb-4d9a-8c20-93479ad37ed0.jpg",
@@ -151,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\82deffd2-ce57-415a-b8b1-21b12943dcbf.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\images\\8d7d1a73-93fe-4556-862b-4b51745b5fcf.jpg",
+      "SourceId": "ASPBlog.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\",
+      "BasePath": "_content/ASPBlog.Api",
+      "RelativePath": "images/8d7d1a73-93fe-4556-862b-4b51745b5fcf.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\8d7d1a73-93fe-4556-862b-4b51745b5fcf.jpg"
     },
     {
       "Identity": "C:\\Users\\E7470\\Desktop\\ASPBlog\\ASP-Project\\ASPBlog\\ASPBlog.Api\\wwwroot\\images\\afcb5e52-e1a1-4f91-8976-fb73ea1ada84.jpg",

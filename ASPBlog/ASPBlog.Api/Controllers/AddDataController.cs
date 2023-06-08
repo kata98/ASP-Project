@@ -1,10 +1,7 @@
 ﻿using ASPBlog.DataAccess;
 using ASPBlog.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
-
-
-
-
+using System.Diagnostics;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -19,6 +16,8 @@ namespace ASPBlog.Api.Controllers
         [HttpPost]
         public void Post()
         {
+
+
             var context = new ASPBlogDbContext();
 
             var roles = new List<Role>
@@ -157,6 +156,8 @@ namespace ASPBlog.Api.Controllers
             context.PostImages.AddRange(postImages);
             context.Gradings.AddRange(grades);
             context.Comments.AddRange(comments);
+
+
 
             context.SaveChanges();
 

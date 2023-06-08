@@ -20,7 +20,7 @@ namespace ASPBlog.Implementation.Validators
 
             RuleFor(x => x.Body).Cascade(CascadeMode.Stop)
                 .NotEmpty().WithMessage("Text is required")
-                .MinimumLength(10).WithMessage("Minimum text length is 15 characters");
+                .MinimumLength(5).WithMessage("Minimum text length is 5 characters");
 
             RuleFor(x => x.CategoryId).Cascade(CascadeMode.Stop)
                 .NotEmpty().WithMessage("Category id is required")

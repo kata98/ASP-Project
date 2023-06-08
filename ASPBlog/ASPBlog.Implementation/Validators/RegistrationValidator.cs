@@ -27,7 +27,7 @@ namespace ASPBlog.Implementation.Validators
                 .Cascade(CascadeMode.Stop)
                 .NotEmpty().WithMessage("Username is required")
                 .MinimumLength(3).WithMessage("Minimum character length is 3.")
-                .MaximumLength(15).WithMessage("Maximum character length is 15.")
+                .MaximumLength(30).WithMessage("Maximum character length is 30.")
                 .Matches("^(?=[a-zA-Z0-9._]{3,12}$)(?!.*[_.]{2})[^_.].*[^_.]$").WithMessage("Not meeting rules for username.")
                 .Must(x => !_context.Users.Any(y => y.Username == x)).WithMessage("This username {PropertyValue} is already in use.");
 

@@ -18,6 +18,9 @@ namespace ASPBlog.DataAccess.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "7.0.5")
+                .HasAnnotation("Proxies:ChangeTracking", false)
+                .HasAnnotation("Proxies:CheckEquality", false)
+                .HasAnnotation("Proxies:LazyLoading", true)
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -37,8 +40,8 @@ namespace ASPBlog.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DeletedBy")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.Property<bool>("IsActive")
                         .ValueGeneratedOnAdd()
@@ -47,15 +50,15 @@ namespace ASPBlog.DataAccess.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                        .HasMaxLength(70)
+                        .HasColumnType("nvarchar(70)");
 
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("UpdatedBy")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.HasKey("Id");
 
@@ -170,8 +173,8 @@ namespace ASPBlog.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DeletedBy")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.Property<bool>("IsActive")
                         .ValueGeneratedOnAdd()
@@ -180,15 +183,15 @@ namespace ASPBlog.DataAccess.Migrations
 
                     b.Property<string>("Path")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasMaxLength(600)
+                        .HasColumnType("nvarchar(600)");
 
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("UpdatedBy")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.HasKey("Id");
 
@@ -217,8 +220,8 @@ namespace ASPBlog.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DeletedBy")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.Property<bool>("IsActive")
                         .ValueGeneratedOnAdd()
@@ -227,15 +230,15 @@ namespace ASPBlog.DataAccess.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(80)
+                        .HasColumnType("nvarchar(80)");
 
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("UpdatedBy")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -264,7 +267,7 @@ namespace ASPBlog.DataAccess.Migrations
 
                     b.HasIndex("ImgId");
 
-                    b.ToTable("PostImage");
+                    b.ToTable("PostImages");
                 });
 
             modelBuilder.Entity("ASPBlog.Domain.Entities.PostTag", b =>
@@ -314,8 +317,8 @@ namespace ASPBlog.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DeletedBy")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.Property<bool>("IsActive")
                         .ValueGeneratedOnAdd()
@@ -330,8 +333,8 @@ namespace ASPBlog.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("UpdatedBy")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.HasKey("Id");
 
@@ -356,13 +359,13 @@ namespace ASPBlog.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DeletedBy")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(70)
+                        .HasColumnType("nvarchar(70)");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
@@ -384,8 +387,8 @@ namespace ASPBlog.DataAccess.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
 
                     b.Property<int>("RoleId")
                         .HasColumnType("int");
@@ -394,13 +397,13 @@ namespace ASPBlog.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("UpdatedBy")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.Property<string>("Username")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
