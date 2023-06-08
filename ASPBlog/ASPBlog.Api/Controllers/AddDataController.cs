@@ -46,12 +46,12 @@ namespace ASPBlog.Api.Controllers
 
             var users = new List<User>
             {
-                new User { FirstName = "Maxine", LastName = "Mccarthy", Username = "admin", Password = BCrypt.Net.BCrypt.HashPassword("admin"), Email = "admin@gmail.com", Role = roles.First(), Image = null},
+                new User { FirstName = "Maxine", LastName = "Mccarthy", Username = "admin", Password = BCrypt.Net.BCrypt.HashPassword("admin"), Email = "admin@gmail.com", Role = roles.First(), Image = images.ElementAt(4)},
                 new User { FirstName = "Lara", LastName = "Currey", Username = "laura", Password = BCrypt.Net.BCrypt.HashPassword("laurapass"), Email = "laura@gmail.com", Role = roles.ElementAt(1), Image = images.ElementAt(0)},
                 new User { FirstName = "Patrick", LastName = "Schwartz", Username = "patrick", Password = BCrypt.Net.BCrypt.HashPassword("patrickpass"), Email = "patrick@gmail.com", Role = roles.ElementAt(1), Image = images.ElementAt(1)},
-                new User { FirstName = "Justine", LastName = "Carol", Username = "justine", Password = BCrypt.Net.BCrypt.HashPassword("justinepass"), Email = "justin@gmail.com", Role = roles.ElementAt(2), Image = null},
+                new User { FirstName = "Justine", LastName = "Carol", Username = "justine", Password = BCrypt.Net.BCrypt.HashPassword("justinepass"), Email = "justin@gmail.com", Role = roles.ElementAt(2), Image = images.ElementAt(6)},
                 new User { FirstName = "Haven", LastName = "Ward", Username = "haven", Password = BCrypt.Net.BCrypt.HashPassword("havenpass"), Email = "haven@gmail.com", Role = roles.ElementAt(2), Image = images.ElementAt(2)},
-                new User { FirstName = "Robin", LastName = "Blair", Username = "robin", Password = BCrypt.Net.BCrypt.HashPassword("robinpass"), Email = "robin@gmail.com", Role = roles.ElementAt(2), Image = null}
+                new User { FirstName = "Robin", LastName = "Blair", Username = "robin", Password = BCrypt.Net.BCrypt.HashPassword("robinpass"), Email = "robin@gmail.com", Role = roles.ElementAt(2), Image = images.ElementAt(3)}
             };
 
             var categories = new List<Category>
@@ -111,7 +111,7 @@ namespace ASPBlog.Api.Controllers
                 new PostImage { Post = posts.ElementAt(4), Image = images.ElementAt(7) },
                 new PostImage { Post = posts.ElementAt(4), Image = images.ElementAt(8) },
                 new PostImage { Post = posts.ElementAt(6), Image = images.ElementAt(9) },
-                new PostImage { Post = posts.ElementAt(7), Image = images.ElementAt(10) },
+                new PostImage { Post = posts.ElementAt(7), Image = images.ElementAt(0) },
                 new PostImage { Post = posts.ElementAt(7), Image = images.ElementAt(2) },
                 new PostImage { Post = posts.ElementAt(0), Image = images.ElementAt(4) },
                 new PostImage { Post = posts.ElementAt(1), Image = images.ElementAt(5) },

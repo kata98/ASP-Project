@@ -6,7 +6,7 @@ namespace ASPBlog.DataAccess
 {
     public class ASPBlogDbContext : DbContext
     {
-        public ASPBlogDbContext(DbContextOptions options = null) : base(options)
+        public ASPBlogDbContext(DbContextOptions options = null) : base (options)
         {
 
         }

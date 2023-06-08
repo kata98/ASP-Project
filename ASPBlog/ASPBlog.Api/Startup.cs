@@ -7,9 +7,7 @@ using ASPBlog.Implementation;
 using ASPBlog.Implementation.Logging;
 using ASPBlog.Implementation.UseCaseLogger;
 using Microsoft.OpenApi.Models;
-using ASPBlog.Api.Core;
 using System.Reflection;
-using ASPBlog.Api.Core;
 
 namespace ASPBlog.Api
 {
